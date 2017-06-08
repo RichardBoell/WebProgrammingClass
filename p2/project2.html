@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Richard Boell">
+    <title>CIS 115 - Project 2</title>
+    <link rel="stylesheet" type="text/css" href="project2.css">
+    <!-- Google Maps API Link -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbxXeY-g7NofAAN8xh507n5WlM6ebRzOU"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="project2.js"></script>
+</head>
+
+
+<body id="background">
+
+    <div id="navBar">
+    	<span id="class">CIS 115</span>
+        <!-- List of links to the CIS 115 Projects -->
+        <ul>
+            <li><a href="../p1/project1.html"><span>P</span>ROJECT I</a></li>
+            <li><a href="../p2/project2.html" id="highlighted"><span>P</span>ROJECT II</a></li>
+            <li><a href="../p3/project3.html"><span>P</span>ROJECT III</a></li>
+            <li><a href="../p4/project4.html"><span>P</span>ROJECT IV</a></li>
+            <li><a href="../p5/project5.html"><span>P</span>ROJECT V</a></li>
+        </ul>
+    </div>
+
+    <div id="mainWindow">
+    	<div id="map"></div>
+    	<div id="upperBar">
+			<button id="findCurrentLocation">Map Current Location</button>
+			<select id="locationsDropdown"></select>
+			<span id="locationInfoSpan"></span>
+    	</div>
+    	<div id="lowerBar">
+    		<button id="center">Center</button>
+    	</div>
+    </div>
+	
+
+
+
+
+
+	<!--
+    <main>
+    	<p>Mapping with Geolocation and Google Maps API</p>
+		<button id="findCurrentLocation">Map Current Location</button>
+		<select id="locationsDropdown"></select>
+		<span id="locationInfoSpan"></span>
+		<div id="map"></div>
+		<button id="center">Center</button>
+    </main>
+    <footer>
+    </footer>
+    -->
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+#background {
+	background-color: #353535;
+	font-family: "Helvetica Neue", Arial;
+	margin: 0;
+}
+
+/* Naviagtion Bar */
+
+nav {
+	position: relative;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	background-color: #151515;
+	padding: 1rem;
+	border-top: 0;
+	margin: 0;
+}
+
+ul li {
+	display: inline;
+}
+
+/* I did some online search to find the css properties
+to style the pages as I wanted to. I found the transition property
+to make the animation when hovering over the element*/
+li a {
+	text-decoration: none;
+	color: white;	font-size: 1.3rem;
+	padding: 1rem;
+	transition: color 0.3s;
+}
+
+li a span {
+	font-size: 1.4rem;
+}
+
+li a:hover {
+	color: #65c4fa;
+}
+
+#class {
+	color: white;
+	font-weight: bold;
+	font-size: 1.3rem;
+	padding: 1rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#highlighted {
+	color: #65c4fa;
+}
+
+/* Main section including map */
+
+#mainWindow {
+	width: 100%;
+	position: relative;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+}
+
+#upperBar {
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 5px;
+	display: inline-block;
+	position: absolute;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+}
+
+#lowerBar {
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 5px;
+	display: inline-block;
+	position: absolute;
+	padding: 5px;
+	margin: auto;
+	text-align: center;
+}
+
+#locationInfoSpan {
+	color: white;
+	font-family: "Helvetica Neue", Arial;
+	font-size: 0.7rem;
+	display: block;
+	margin: auto;
+	padding-top: 8px;
+}
+
+button {
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+	font-family: "Helvetica Neue", Arial;
+	font-size: 0.7rem;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	transition: color 0.3s;
+}
+
+button:hover {
+	color: #65c4fa;
+}

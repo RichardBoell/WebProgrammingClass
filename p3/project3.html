@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Richard Boell">
+    <title>CIS 115 - Project 3</title>
+    <link rel="stylesheet" type="text/css" href="project3.css">
+    <!-- Google Maps API Link -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbxXeY-g7NofAAN8xh507n5WlM6ebRzOU"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="project3.js"></script>
+</head>
+
+
+<body id="background">
+
+    <div id="navBar">
+    	<span id="class">CIS 115</span>
+        <!-- List of links to the CIS 115 Projects -->
+        <ul>
+            <li><a href="../p1/project1.html"><span>P</span>ROJECT I</a></li>
+            <li><a href="../p2/project2.html"><span>P</span>ROJECT II</a></li>
+            <li><a href="../p3/project3.html" id="highlighted"><span>P</span>ROJECT III</a></li>
+            <li><a href="../p4/project4.html"><span>P</span>ROJECT IV</a></li>
+            <li><a href="../p5/project5.html"><span>P</span>ROJECT V</a></li>
+        </ul>
+    </div>
+
+    <div id="mainWindow">
+        <canvas width=800 height="600">Sorry No Canvas available!</canvas>
+        <br>
+        <div id="controls">
+            <select id="backgroundColors"></select>
+            <input type="text" id="textInput" placeholder="Enter text" size=30>
+            <button id="drawText">Display text on canvas</button>
+            <button id="clearCanvas">Clear Canvas</button>
+            <button id="startRain">Let It Rain!</button>
+            <button id="stopRain">Stop The Rain</button>
+        </div>
+    </div>
+	
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Richard Boell">
+    <title>CIS 115 - Project 5</title>
+    <link rel="stylesheet" type="text/css" href="project5.css">
+    <script type="text/javascript" src="project5.js"></script>
+</head>
+
+
+<body id="background">
+
+    <div id="navBar">
+    	<span id="class">CIS 115</span>
+        <!-- List of links to the CIS 115 Projects -->
+        <ul>
+            <li><a href="../p1/project1.html"><span>P</span>ROJECT I</a></li>
+            <li><a href="../p2/project2.html"><span>P</span>ROJECT II</a></li>
+            <li><a href="../p3/project3.html"><span>P</span>ROJECT III</a></li>
+            <li><a href="../p4/project4.html"><span>P</span>ROJECT IV</a></li>
+            <li><a href="../p5/project5.html" id="highlighted"><span>P</span>ROJECT V</a></li>
+        </ul>
+    </div>
+
+    <div id="mainWindow">
+        <canvas id="canvas" height="600" width="800">Your browser doesn't support HTML5 canvas</canvas>
+        <br/>
+        <div id="leftColumn">
+            <span class="descriptionSpans">SELECT A SHAPE: </span>
+            <br/>
+            <span class="descriptionSpans">SELECT A FILL COLOR: </span>
+            <br/>
+            <span id="moveShapesDescription" class="descriptionSpans">MOVE SHAPES: </span>
+            <br/>
+        </div>
+        <div id="rightColumn">
+            <select id="shapes">
+                <option value="0">Square</option>
+                <option value="1">Circle</option>
+                <option value="2">Triangle</option>
+            </select>
+            <br/>
+            <select id="colors"></select>
+            <br/>
+            <input id ="moveShapes" type="checkbox" name="vehicle">
+            <br/>
+        </div>
+        <br/>
+        <button id="clearCanvas">Clear Canvas</button>
+    </div>
+	
+</body>
+
+</html>

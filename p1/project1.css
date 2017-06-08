@@ -1,0 +1,154 @@
+#background {
+	background-color: #252525;
+	font-family: "Helvetica Neue", Arial;
+	margin: 0;
+}
+
+/* Navigation Bar */
+
+nav {
+	position: relative;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	background-color: #151515;
+	padding: 1rem;
+	border-top: 0;
+	margin: 0;
+}
+
+ul li {
+	display: inline;
+}
+
+
+/* I did some online search to find the css properties
+to style the pages as I wanted to. I found the transition property
+to make the animation when hovering over the element*/
+li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.3rem;
+	padding: 1rem;
+	transition: color 0.3s;
+}
+
+li a span {
+	font-size: 1.4rem;
+}
+
+li a:hover {
+	color: #65c4fa;
+}
+
+#class {
+	color: white;
+	font-weight: bold;
+	font-size: 1.3rem;
+	padding: 1rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#highlighted {
+	color: #65c4fa;
+}
+
+/* Header section */
+
+#headerSection {
+	background-image: url("nyc.jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100%;
+    text-align: center;
+    position: relative;
+    z-index: -2;
+}
+
+#blackLayer {
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+h1 {
+	margin: auto;
+	color: white;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 6rem;
+	padding-top: 2rem;
+}
+
+h1 span {
+	font-size: 6.5rem;
+}
+
+h2 {
+	margin: auto;
+	color: white;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 4rem;
+	padding-bottom: 2rem;
+}
+
+h2 span {
+	font-size: 4.3rem;
+}
+
+#dateSpan {
+	color: white;
+    font-family: "Helvetica Neue", Arial;
+    font-size: 0.7rem;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+
+/* Main section */
+
+p {
+	color: white;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding-top: 2rem;
+	line-height: 120%;
+	font-weight: lighter;
+}
+
+#quoteSpan {
+	float: right;
+	clear: both;
+	position: relative;
+	right: 2rem;
+
+	font-size: 0.7rem;
+	color: white;
+	font-family: "Helvetica Neue", Arial;
+	font-style: italic;
+}
+
+#authorSpan {
+	float: right;
+	clear: both;
+	position: relative;
+	right: 2rem;
+	top: 1rem;
+
+	font-size: 0.7rem;
+	color: #65c4fa;
+	font-family: "Helvetica Neue", Arial;
+}
+
+footer {
+	position: relative;
+	top: 3rem;
+}
